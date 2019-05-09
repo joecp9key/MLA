@@ -17,7 +17,7 @@ suba.m
 
 
 ![image](https://github.com/joecp9key/MLA_HW_2/blob/master/matlab%20kmeans.JPG)<br />  
-上圖為使用matlab裡的kemans fuction得出的圖<br /> 
+上圖為使用matlab裡的kemans fuction得出的圖 <br /> 
 叉叉為centroid 的位置，我們可以清楚的看到該資料被kmeans分為三大群<br /> 
 
 ![image](https://github.com/joecp9key/MLA_HW_2/blob/master/MY%20FUNCTION.JPG)<br /> 
@@ -32,21 +32,13 @@ suba.m
 代表我們分析的結果        <br /> 
 
 我們隨機進行一次分析<br /> 
-----------------------------------------<br /> 
-tabulate(idx(:))<br /> 
 
-
-  Value    Count   Percent  <br /> 
-      1          109         36.33% <br /> 
-      2          90          30.00% <br /> 
-      3          101         33.67% <br /> 
-'----------------------------------------'  
-tabulate(cluster4(:))<br /> 
-  Value    Count   Percent   <br /> 
-      1      111     37.00%  <br /> 
-      2       92     30.67%  <br /> 
-      3       97     32.33%  <br /> 
-'----------------------------------------'
+下圖使kmeans fuction的分類
+![image](https://github.com/joecp9key/MLA_HW_2/blob/master/%E5%88%86%E6%9E%90kemas.JPG)<br /> 
+<br />
+下圖使我們自己寫的演算法的分類
+![image](https://github.com/joecp9key/MLA_HW_2/blob/master/%E5%88%86%E6%9E%90my.JPG)<br /> 
+<br />
 value代表我們分成了幾類
 count代表在該程式下分類到該群集下的個數
 percent代表總佔比
@@ -57,17 +49,18 @@ percent代表總佔比
 
 ---------------------------------------------
 subb.m
-第二題是在未告知分類的個數下進行分群
-在第13行我們使用了matlab的evalclusters函數來幫助我們進行分析
-其結果為如下圖顯示
-![image](https://github.com/joecp9key/MLA_HW_2/blob/master/b.png)
-我們使用了'CalinskiHarabasz'方式來替我們進行分析，並以該資料從分群1至6來替我們評分
-InspectedK 是分群的個數
-CriterionValues 是在該分群個數下給予的分數評價
-我們可以看到若是只分1群是無法得到評價分數的 (因為沒有意義)
-而分三群給的評價是最高的，接著分數就往下掉了
-因此我們判定該資料分三群時是最好的
-我們在用kmeans函數進行分類
-得出下面這張圖
+第二題是在未告知分類的個數下進行分群<br /> 
+在第13行我們使用了matlab的evalclusters函數來幫助我們進行分析<br /> 
+其結果為如下圖顯示<br /> 
+![image](https://github.com/joecp9key/MLA_HW_2/blob/master/b.png)<br /> 
+<br /> 
+我們使用了'CalinskiHarabasz'方式來替我們進行分析，並以該資料從分群1至6來替我們評分<br /> 
+InspectedK 是分群的個數<br /> 
+CriterionValues 是在該分群個數下給予的分數評價<br /> 
+我們可以看到若是只分1群是無法得到評價分數的 (因為沒有意義)<br /> 
+而分三群給的評價是最高的，接著分數就往下掉了<br /> 
+因此我們判定該資料分三群時是最好的<br /> 
+我們在用kmeans函數進行分類<br /> 
+得出下面這張圖<br /> 
 ![image](https://github.com/joecp9key/MLA_HW_2/blob/master/matlab%20kmeans.JPG)
 
