@@ -33,10 +33,10 @@ suba.m
 
 我們隨機進行一次分析<br /> 
 
-#下圖使kmeans fuction的分類<br /> 
+下圖使用kmeans fuction的分類<br /> 
 ![image](https://github.com/joecp9key/MLA_HW_2/blob/master/%E5%88%86%E6%9E%90kemas.JPG)<br /> 
 
-#下圖使我們自己寫的演算法的分類<br /> 
+下圖使用我們自己寫的演算法的分類<br /> 
 ![image](https://github.com/joecp9key/MLA_HW_2/blob/master/%E5%88%86%E6%9E%90my.JPG)<br /> 
 <br />
 value代表我們分成了幾類
