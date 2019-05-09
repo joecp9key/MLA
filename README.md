@@ -56,4 +56,15 @@ percent代表總佔比
 subb.m
 第二題是在未告知分類的個數下進行分群
 在第13行我們使用了matlab的evalclusters函數來幫助我們進行分析
-其結果為
+其結果為如下圖顯示
+![image](https://github.com/joecp9key/MLA_HW_2/blob/master/b.png)
+我們使用了'CalinskiHarabasz'方式來替我們進行分析，並以該資料從分群1至6來替我們評分
+InspectedK 是分群的個數
+CriterionValues 是在該分群個數下給予的分數評價
+我們可以看到若是只分1群是無法得到評價分數的 (因為沒有意義)
+而分三群給的評價是最高的，接著分數就往下掉了
+因此我們判定該資料分三群時是最好的
+我們在用kmeans函數進行分類
+得出下面這張圖
+![image](https://github.com/joecp9key/MLA_HW_2/blob/master/matlab%20kmeans.JPG)
+
