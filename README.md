@@ -33,10 +33,10 @@ suba.m
 
 我們隨機進行一次分析<br /> 
 
-下圖使kmeans fuction的分類
+下圖使kmeans fuction的分類<br /> 
 ![image](https://github.com/joecp9key/MLA_HW_2/blob/master/%E5%88%86%E6%9E%90kemas.JPG)<br /> 
 <br />
-下圖使我們自己寫的演算法的分類
+下圖使我們自己寫的演算法的分類<br /> 
 ![image](https://github.com/joecp9key/MLA_HW_2/blob/master/%E5%88%86%E6%9E%90my.JPG)<br /> 
 <br />
 value代表我們分成了幾類
@@ -60,7 +60,7 @@ CriterionValues 是在該分群個數下給予的分數評價<br />
 我們可以看到若是只分1群是無法得到評價分數的 (因為沒有意義)<br /> 
 而分三群給的評價是最高的，接著分數就往下掉了<br /> 
 因此我們判定該資料分三群時是最好的<br /> 
-我們在用kmeans函數進行分類<br /> 
+我們用kmeans函數進行分類<br /> 
 得出下面這張圖<br /> 
 ![image](https://github.com/joecp9key/MLA_HW_2/blob/master/matlab%20kmeans.JPG)
 
