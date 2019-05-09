@@ -16,34 +16,37 @@ suba.m
 而25行到97行是我們自己寫的演算法進行分群
 
 
-![image](https://github.com/joecp9key/MLA_HW_2/blob/master/matlab%20kmeans.JPG)
-上圖為使用matlab裡的kemans fuction得出的圖
-叉叉為centroid 的位置，我們可以清楚的看到該資料被kmeans分為三大群
+![image](https://github.com/joecp9key/MLA_HW_2/blob/master/matlab%20kmeans.JPG)<br />  
+上圖為使用matlab裡的kemans fuction得出的圖<br /> 
+叉叉為centroid 的位置，我們可以清楚的看到該資料被kmeans分為三大群<br /> 
 
-![image](https://github.com/joecp9key/MLA_HW_2/blob/master/MY%20FUNCTION.JPG)
-而這張圖為我們自己寫的演算法所分析出來的結果
-跟kmeans的表現大同小異
+![image](https://github.com/joecp9key/MLA_HW_2/blob/master/MY%20FUNCTION.JPG)<br /> 
+而這張圖為我們自己寫的演算法所分析出來的結果<br /> 
+跟kmeans的表現大同小異<br /> 
 
-第98行到102行是我們比較了kmeans函式跟我們演算法的性能
-tabulate(idx(:))代表kmeans的分類結果
-tabulate(cluster4(:)) 代表我們分析的結果
+第98行到102行是我們比較了kmeans函式跟我們演算法的性能<br /> 
+我們使用了tabulate來分析我們的結果<br />
+"idx(:)"      <br />
+代表kmeans的分類結果     <br /> 
+'cluster4(:)' <br />
+代表我們分析的結果        <br /> 
 
-我們隨機進行一次分析
-----------------------------------------
-tabulate(idx(:))
+我們隨機進行一次分析<br /> 
+----------------------------------------<br /> 
+tabulate(idx(:))<br /> 
 
 
-  Value    Count   Percent
-      1      109     36.33%
-      2       90     30.00%
-      3      101     33.67%
-----------------------------------------  
-tabulate(cluster4(:))
-  Value    Count   Percent
-      1      111     37.00%
-      2       92     30.67%
-      3       97     32.33%
----------------------------------------- 
+  Value    Count   Percent  <br /> 
+      1      109     36.33% <br /> 
+      2       90     30.00% <br /> 
+      3      101     33.67% <br /> 
+'----------------------------------------'  
+tabulate(cluster4(:))<br /> 
+  Value    Count   Percent   <br /> 
+      1      111     37.00%  <br /> 
+      2       92     30.67%  <br /> 
+      3       97     32.33%  <br /> 
+'----------------------------------------'
 value代表我們分成了幾類
 count代表在該程式下分類到該群集下的個數
 percent代表總佔比
