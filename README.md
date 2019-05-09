@@ -64,3 +64,4 @@ CriterionValues 是在該分群個數下給予的分數評價<br />
 得出下面這張圖<br /> 
 ![image](https://github.com/joecp9key/MLA_HW_2/blob/master/matlab%20kmeans.JPG)
 
+
