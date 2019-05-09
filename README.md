@@ -37,9 +37,9 @@ tabulate(idx(:))<br />
 
 
   Value    Count   Percent  <br /> 
-      1      109     36.33% <br /> 
-      2       90     30.00% <br /> 
-      3      101     33.67% <br /> 
+      1          109         36.33% <br /> 
+      2          90          30.00% <br /> 
+      3          101         33.67% <br /> 
 '----------------------------------------'  
 tabulate(cluster4(:))<br /> 
   Value    Count   Percent   <br /> 
